@@ -1,8 +1,8 @@
 import React from "react";
-import ".style.css";
+import "./style.css";
 
 // set properties for the image and the onClick event to see if the card has been clicked or not already
-const gameCards = props => (
+const Card = props => (
   <div className="card">
     <div className="img-container">
       <img
@@ -14,4 +14,4 @@ const gameCards = props => (
   </div>
 );
 
-export default gameCards;
+export default Card;
