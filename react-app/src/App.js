@@ -62,7 +62,6 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <Wrapper>
-          {/* <Title>Character List</Title> */}
           {this.state.characters.map(characters => (
             <Card
               checkIfClicked={this.checkIfClicked}
