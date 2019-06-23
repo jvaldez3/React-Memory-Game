@@ -10,7 +10,7 @@ const Header = props => (
       </h5>
     </nav>
 
-    <div className="jumbotron">
+    <div className="jumbotron jumbotron-fluid">
       <h1>GOT Memory Game</h1>
     </div>
   </div>

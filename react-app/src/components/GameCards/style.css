@@ -1,15 +1,11 @@
 .card {
-  height: fit-content;
-  margin: 1rem;
-  position: relative;
-  width: fit-content;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  background: rgb(53, 53, 54);
   border-radius: 6px;
   display: flex;
   flex-wrap: wrap;
+  float: left;
   justify-content: space-between;
-  flex: 0 1 calc(25% - 6em);
+  margin: 1rem;
 }
 
 .img-container {

@@ -6,6 +6,8 @@ const Card = props => (
   <div className="card">
     <div className="img-container">
       <img
+        height="250px"
+        width="200px"
         alt={"This is " + props.id}
         src={props.image}
         onClick={() => props.checkIfClicked(props.id)}
